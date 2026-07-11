@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* MexiGo brand palette — keep in sync with the iOS app's Core/UI/Styles/AppColors */
+  --color-fire-brick: #b0302f;
+  --color-steel-blue: #3575a2;
+  --color-pumpkin: #cf6a00;
+  --color-princeton-orange: #eb8f2c;
+  --color-forest-green: #276124;
+  --color-mulberry: #b0367f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-montserrat);
+
+  --color-fire-brick: var(--color-fire-brick);
+  --color-steel-blue: var(--color-steel-blue);
+  --color-pumpkin: var(--color-pumpkin);
+  --color-princeton-orange: var(--color-princeton-orange);
+  --color-forest-green: var(--color-forest-green);
+  --color-mulberry: var(--color-mulberry);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
