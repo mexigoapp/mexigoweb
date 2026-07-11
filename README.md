@@ -22,6 +22,12 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to see the site. Edit
 `src/app/page.tsx` — it hot-reloads.
 
+To test the production build locally (closer to what Vercel actually deploys):
+
+```bash
+npm run preview   # next build && next start, served at http://localhost:3000
+```
+
 ## Project Structure
 
 ```
@@ -52,9 +58,10 @@ Use as Tailwind utilities, e.g. `bg-fire-brick`, `text-steel-blue`.
 ## Scripts
 
 ```bash
-npm run dev      # local dev server
+npm run dev      # local dev server (hot reload)
 npm run build    # production build
-npm run start    # run production build locally
+npm run start    # run an existing production build
+npm run preview  # build + start, for testing the production build locally
 npm run lint     # eslint
 ```
 
