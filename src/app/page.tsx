@@ -12,7 +12,7 @@ const features = [
 export default function Home() {
   return (
     <div className="flex flex-1 flex-col items-center justify-center bg-zinc-50 dark:bg-black">
-      <main className="flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-10 px-6 py-24 text-center">
+      <div className="flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-10 px-6 py-24 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-fire-brick sm:text-5xl">
           MexiGo
         </h1>
@@ -33,13 +33,10 @@ export default function Home() {
           ))}
         </ul>
 
-        <a
-          href="#"
-          className="rounded-full bg-fire-brick px-8 py-3 text-base font-semibold text-white transition-colors hover:bg-fire-brick/90"
-        >
-          Download on the App Store
-        </a>
-      </main>
+        <span className="rounded-full border border-fire-brick/30 bg-fire-brick/5 px-8 py-3 text-base font-semibold text-fire-brick">
+          Coming Soon to the App Store
+        </span>
+      </div>
     </div>
   );
 }
