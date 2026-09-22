@@ -13,7 +13,7 @@ export default function Privacy() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-zinc-500">
-          Effective date: July 14, 2026
+          Effective date: July 20, 2026
         </p>
 
         <div className="mt-8 flex flex-col gap-8 text-base leading-7 text-zinc-600 dark:text-zinc-400">
@@ -37,13 +37,30 @@ export default function Privacy() {
             </h2>
             <p className="mt-3">
               This website does not require you to create an account or
-              submit personal information to browse it. If you contact us by
-              email, we receive whatever information you choose to include in
-              that message (such as your name and email address). If we add
-              website analytics in the future, we may collect standard,
-              aggregated technical information such as browser type, device
-              type, and pages visited, in order to understand how the site is
-              used.
+              submit personal information to browse it. Neither does the
+              MexiGo app &mdash; there is no sign-up or login. If you contact
+              us by email, we receive whatever information you choose to
+              include in that message (such as your name and email address).
+              If we add website analytics in the future, we may collect
+              standard, aggregated technical information such as browser
+              type, device type, and pages visited, in order to understand
+              how the site is used.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
+              Location Information
+            </h2>
+            <p className="mt-3">
+              The MexiGo app asks for permission to use your device&apos;s
+              location while the app is in use, in order to show nearby
+              destinations, activities, and experiences. This location data
+              is used entirely on your device to sort and display content
+              &mdash; it is not transmitted to us or stored on any server.
+              You can deny or revoke this permission at any time in your
+              device&apos;s Settings without losing access to the rest of the
+              app.
             </p>
           </section>
 
@@ -53,8 +70,9 @@ export default function Privacy() {
             </h2>
             <p className="mt-3">
               We use the information described above to respond to inquiries,
-              operate and improve this website, and understand how visitors
-              use our content. We do not sell personal information.
+              operate and improve this website and the app, and understand
+              how visitors use our content. We do not sell personal
+              information.
             </p>
           </section>
 
@@ -66,7 +84,27 @@ export default function Privacy() {
               We may use cookies or similar technologies provided by
               third-party analytics services to understand aggregate site
               usage. These services may set their own cookies subject to
-              their own privacy policies.
+              their own privacy policies. The MexiGo app does not currently
+              include any analytics, advertising, or crash-reporting SDKs.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
+              Third-Party Services
+            </h2>
+            <p className="mt-3">
+              Images shown in the MexiGo app are served through Firebase
+              Storage, a Google Cloud service. Requests to load an image do
+              not include any personal or account information, since the app
+              has no accounts. Our use of Firebase is subject to{" "}
+              <a
+                href="https://firebase.google.com/support/privacy"
+                className="font-semibold text-fire-brick hover:underline"
+              >
+                Google&apos;s privacy practices for Firebase
+              </a>
+              .
             </p>
           </section>
 
