@@ -19,7 +19,7 @@ export default function About() {
             MexiGo is a travel companion app built to help visitors discover
             the best of Mexico. Whether you&apos;re planning a trip or already
             exploring, MexiGo brings together destinations, activities,
-            attractions, events, golf courses, restaurants, wedding venues,
+            attractions, events, golf courses, restaurants, shopping,
             and unique experiences in one place.
           </p>
 

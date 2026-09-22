@@ -18,6 +18,9 @@ export default function Footer() {
           <Link href="/terms" className="transition-colors hover:text-fire-brick">
             Terms
           </Link>
+          <Link href="/attributions" className="transition-colors hover:text-fire-brick">
+            Attributions
+          </Link>
         </div>
       </div>
     </footer>
