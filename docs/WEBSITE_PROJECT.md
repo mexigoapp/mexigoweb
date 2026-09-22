@@ -54,7 +54,7 @@ one avoids a rebuild. Revisit this table once ready to commit.
 - Home page: what MexiGo is, who it's for (travelers to [region — confirm: Puerto
   Vallarta / broader Mexico destinations]), core value proposition
 - Feature overview page(s): Destinations, Activities, Attractions, Events, Golf,
-  Restaurants, Weddings, Experiences (mirror the app's feature modules)
+  Restaurants, Markets, Experiences (mirror the app's feature modules)
 - App Store download CTA (badge/button) — link to live App Store listing once
   published
 - About / Our Story page

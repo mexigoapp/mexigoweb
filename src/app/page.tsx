@@ -5,7 +5,7 @@ const features = [
   "Events",
   "Golf",
   "Restaurants",
-  "Weddings",
+  "Markets",
   "Experiences",
 ];
 

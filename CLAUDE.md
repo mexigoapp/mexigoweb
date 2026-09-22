@@ -42,4 +42,4 @@ without checking `MexiGo/Core/UI/Styles/AppColors` in the main repo first.
   requires it
 - Keep marketing copy and feature lists in sync with the app's actual feature
   modules (Destinations, Activities, Attractions, Events, Golf, Restaurants,
-  Weddings, Experiences)
+  Markets, Experiences)
